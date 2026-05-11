@@ -72,7 +72,7 @@ Derived Pattern можно переносить в Harness. Личный фак�
 Для нового пользователя создается отдельный набор файлов по шаблону:
 
 ```text
-users/{user_id}/
+USER/
   USER-MEMORY.md
   USER-PROFILE.md
   USER-FUTURE-{horizon}.md
@@ -107,7 +107,7 @@ users/{user_id}/
 
 Пользовательские файлы:
 
-- `{USER}-*.md` или `users/{user_id}/*.md`;
+- `USER/*`, `{USER}-*.md` или `users/{user_id}/*.md`;
 - содержат персональные данные;
 - не публикуются без явного обезличивания.
 

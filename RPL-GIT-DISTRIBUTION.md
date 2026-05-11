@@ -47,6 +47,7 @@ rpl-harness/
 
 These files are private by default:
 
+- `USER/`
 - `RPL-MEMORY.md`
 - `{USER}-*.md`
 - `users/`
@@ -58,7 +59,7 @@ This working folder uses `.gitignore` to protect the current private pilot insta
 ## How People Use It
 
 1. Clone the public Harness repository.
-2. Create a private user save outside the public repo or inside ignored `users/{user_id}/`.
+2. Create a private user save outside the public repo or inside ignored `USER/`.
 3. Run one skill at a time through an agent or manually from the `skills/` folder.
 4. Save personal outputs only in the private user save.
 5. If a new reusable pattern appears, move only the anonymized rule back into the Harness.
@@ -76,4 +77,3 @@ Before pushing to a public Git remote:
 ## North Star
 
 The repository should feel like a small operating system for honest life reflection, not a productivity template pack.
-

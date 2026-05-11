@@ -35,7 +35,7 @@
 Рекомендуемая структура приватного сейва:
 
 ```text
-users/{user_id}/
+USER/
   USER-MEMORY.md
   USER-PROFILE.md
   USER-FUTURE-{horizon}.md
