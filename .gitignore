@@ -1,0 +1,13 @@
+# Private user instances
+RPL-MEMORY.md
+users/
+assets/
+USER-*.md
+*-PRIVATE.*
+
+# Local/runtime noise
+.DS_Store
+*.log
+node_modules/
+.env
+.env.*
